@@ -8,7 +8,7 @@ The simple Express server for Docker
 
 ## How to use
 * Change the value for `WORKDIR` in `/Dockerfile` to your work directory.
-* Your site is within this foler `/public`
+* Your site is within this folder `/public`
 
 ## How to build a Dockerfile
 Build a Dockerfile
