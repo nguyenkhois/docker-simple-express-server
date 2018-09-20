@@ -12,7 +12,7 @@ The simple Express server for Docker
 
 ## How to build a Dockerfile
 Build a Dockerfile
-* Build an Docker image: `docker build -t yourimagename .`
+* Build an image: `docker build -t yourimagename .`
 
 Push up to Docker Hub
 * Create a tag: `docker tag yourimagename <your-docker-id>/yourimagename`
