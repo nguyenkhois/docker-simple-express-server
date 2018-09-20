@@ -11,6 +11,13 @@ The simple Express server for Docker
 * Your site is within 
 
 ## How to build a Docker file
+Build a Docker file
 * Build an Docker image: `docker build -t yourimagename .`
+
+Push up to Docker Hub
 * Create a tag: `docker tag yourimagename <your-docker-id>/yourimagename`
 * Push up to Docker Hub: `docker push <your-docker-id>/yourimagename`
+
+## References
+* [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+* [Push images to Docker Cloud](https://docs.docker.com/docker-cloud/builds/push-images/)
