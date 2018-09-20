@@ -4,9 +4,11 @@ The simple Express server for Docker
 ## Features
 * Passed [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (View more in `/public/index.html` template)
 * Fits to React-Router (historyApiFallback)
+* Included Node 10.10, Express 4.16.3
 
 ## How to use
 * Change the value for `WORKDIR` in `/Dockerfile` to your work directory.
+* Your site is within 
 
 ## How to build a Docker file
 * Build an Docker image: `docker build -t yourimagename .`
