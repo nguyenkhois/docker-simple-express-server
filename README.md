@@ -14,6 +14,9 @@ The simple Express server for Docker
 Build a Dockerfile
 * Build an image: `docker build -t yourimagename .`
 
+Create a container
+* `docker run --name yourserver -d -p 6000:8000 yourimagename`
+
 Push up to Docker Hub
 * Create a tag: `docker tag yourimagename <your-docker-id>/yourimagename`
 * Push up to Docker Hub: `docker push <your-docker-id>/yourimagename`
