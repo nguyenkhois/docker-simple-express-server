@@ -10,8 +10,8 @@ The simple Express server for Docker
 * Change the value for `WORKDIR` in `/Dockerfile` to your work directory.
 * Your site is within 
 
-## How to build a Docker file
-Build a Docker file
+## How to build a Dockerfile
+Build a Dockerfile
 * Build an Docker image: `docker build -t yourimagename .`
 
 Push up to Docker Hub
