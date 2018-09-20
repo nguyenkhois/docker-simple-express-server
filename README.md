@@ -17,6 +17,9 @@ Build a Dockerfile
 Create a container
 * `docker run --name yourserver -d -p 6000:8000 yourimagename`
 
+Test on localhost by using web browser
+* `http://localhost:6000`
+
 Push up to Docker Hub
 * Create a tag: `docker tag yourimagename <your-docker-id>/yourimagename`
 * Push up to Docker Hub: `docker push <your-docker-id>/yourimagename`
