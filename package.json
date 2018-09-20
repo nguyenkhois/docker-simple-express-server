@@ -1,0 +1,23 @@
+{
+  "name": "simple-express-server",
+  "version": "1.0.1",
+  "description": "Dockerfile - The simple Express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Khoi Le",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "uninstall": "0.0.0"
+  },
+  "devDependencies": {
+    "express-history-api-fallback": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenkhois/expressjs-docker-simple-server.git"
+  }
+}
