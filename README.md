@@ -7,7 +7,7 @@ The simple Express server for Docker
 * Included Node 10.10, Express 4.16.4
 
 ## How to use
-* Change the value for `WORKDIR` in `/Dockerfile` to your cruurent work directory.
+* Change the value for `WORKDIR` in `/Dockerfile` to your current work directory.
 * Your site is within this folder `/public`
 
 ## How to build a Dockerfile
