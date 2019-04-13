@@ -15,13 +15,13 @@ The simple Express server for Docker
     * Build an image: `docker build -t <yourimagename> .`
 
 2. Create a container
-    * `docker run --name yourserver -d -p 6000:8000 <yourimagename>`
+    * `docker run --name <yourcontainername> -d -p 6000:8000 <yourimagename>`
 
     Notes:
     * Port `6000` is your local port
     * Port `8000` is the Dockerfile exposed port that you can find it within `/Dockerfile` and `/index.js`
 
-3. Test on localhost by using web browser
+3. View the localhost by using your web browser
     * `http://localhost:6000`
 
 ## Push your Docker image to Docker Hub
