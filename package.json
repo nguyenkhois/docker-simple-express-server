@@ -1,7 +1,7 @@
 {
   "name": "simple-express-server",
   "version": "1.0.0",
-  "description": "The simple Express server",
+  "description": "The simple Express server usin for Dockerfile",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

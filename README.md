@@ -1,14 +1,14 @@
-# expressjs-docker-simple-server
-The simple Express server for Docker
+# Docker - The simple Express server
+The simple Express server using for Dockerfile.
 
 ## Features
 * Passed [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (View more in `/public/index.html` template)
 * Fits to React-Router (historyApiFallback)
-* Included Node 10.10, Express 4.16.4
+* Included Node v10.15.3 LTS, Express v4.16.4
 
 ## How to use
 * Change the value for `WORKDIR` in `/Dockerfile` to your current work directory.
-* Your site is within this folder `/public`
+* Your static site is within this folder `/public`
 
 ## How to build a Dockerfile
 1. Build a Dockerfile
